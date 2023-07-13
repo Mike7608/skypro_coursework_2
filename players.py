@@ -1,11 +1,11 @@
 class Player:
 
-    def __init__(self, user_name: str):
+    def __init__(self, name: str):
         """
         Инициализация класса
-        :param user_name: Имя пользователя
+        :param name: Имя пользователя
         """
-        self.user_name = user_name
+        self.name = name
         """
         Список использованных слов
         """
@@ -37,4 +37,4 @@ class Player:
         Функция для отображения полей класса
         :return: строка с названиями полей класса и их значениями
         """
-        return f"User(user_name = {self.user_name}, list_used_words = {self.list_used_words})"
+        return f"name = {self.name}, list_used_words = {self.list_used_words}"

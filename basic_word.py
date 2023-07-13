@@ -17,7 +17,7 @@ class BasicWord:
         """
         return player_word in self.subwords
 
-    def get_subword_count(self):
+    def get_count_subwords(self):
         """
         Подсчет количества подслов
         :return: int значение
